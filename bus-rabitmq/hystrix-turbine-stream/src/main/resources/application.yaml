@@ -1,0 +1,17 @@
+server:
+  port: 8878
+spring:
+  application:
+    name: turbine-stream
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: rkd
+    password: pwd
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    enabled: false
+  instance:
+    prefer-ip-address: true

@@ -1,0 +1,768 @@
+{
+	"info": {
+		"_postman_id": "dc0d29ad-6f91-4001-9dfe-1927af0024ce",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "config server test",
+			"item": [
+				{
+					"name": "远程调用 8381#hello",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/hello",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#hello Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/hello",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#say",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/say",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"say"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#say Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/say",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"say"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#say2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/say2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"say2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#hello Copy Copy Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/hello",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#hello2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#hello2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8382#hello",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/hello",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#hello",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/hello",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8389#hello",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8389/hello",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8389",
+							"path": [
+								"hello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#hello2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8382#hello2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#hello2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#hello2 Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#hello2 Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#hello2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8382#hello3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/hello3",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"hello3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8389#hello2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/hello2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"hello2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8381#hello3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8381/hello3",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8381",
+							"path": [
+								"hello3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#hello3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/hello3",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"hello3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#say",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/say",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"say"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8385#say2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8385/say2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8385",
+							"path": [
+								"say2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8382#hello3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/hello3",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"hello3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8382#say",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/say",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"say"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8382#say2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/say2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"say2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8389#hello3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8389/hello3",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8389",
+							"path": [
+								"hello3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8389#say'",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/say",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"say"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "远程调用 8389#say2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://10.40.92.112:8382/say2",
+							"protocol": "http",
+							"host": [
+								"10",
+								"40",
+								"92",
+								"112"
+							],
+							"port": "8382",
+							"path": [
+								"say2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

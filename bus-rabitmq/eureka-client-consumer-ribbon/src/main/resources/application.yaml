@@ -1,0 +1,25 @@
+server:
+  port: 8381
+spring:
+  application:
+    name: rkd-ribbon
+  rabbitmq:
+    host: 10.67.45.196
+    port: 5672
+    username: rkd
+    password: pwd
+    ssl:
+      enabled: ${sslEnabled:false}
+      verify-hostname: false
+      validate-server-certificate: false
+hystrix:
+  stream:
+    queue:
+      send-id: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    #prefer-ip-address: true
+    hostname: ribbon-a

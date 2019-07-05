@@ -1,0 +1,27 @@
+server:
+  port: 8382
+spring:
+  application:
+    name: rhdCC
+  rabbitmq:
+    host: 10.67.45.196
+    port: 5672
+    username: rkd
+    password: pwd
+    ssl:
+      enabled: ${sslEnabled:false}
+      verify-hostname: false
+      validate-server-certificate: false
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  stream:
+    queue:
+      send-id: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    hostname: feign-b

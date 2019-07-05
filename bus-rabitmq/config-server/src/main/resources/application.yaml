@@ -1,0 +1,30 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: heyile-config
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rkd
+    password: pwd
+  cloud:
+    config:
+      server:
+        git:
+          force-pull: false
+          uri: ${GIT_LAB_ADDR:http://code-cbu.huawei.com/h00451788/house-app-config.git}
+          search-paths: ${GIT_LAB_SEARCH_PATH:/}
+          username: ${GIT_LAB_ACCOUNT:user}
+          password: ${GIT_LAB_PWD:pwd}
+management:
+  endpoint:
+    bus-refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+logging:
+  config: classpath:logback-spring.xml
+  level.org.springframework.boot.autoconfigure: error

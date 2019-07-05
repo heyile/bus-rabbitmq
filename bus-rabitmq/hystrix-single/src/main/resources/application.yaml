@@ -1,0 +1,31 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://10.67.45.196:8761/eureka/}
+    enabled: ${EUREKA_ENABLED:true}
+    register-with-eureka: true
+    fetch-registry: false
+  instance:
+    prefer-ip-address: true
+    ip-address: ${HYSTRIX_IP:127.0.0.1}
+    non-secure-port-enabled: ${HYSTRIX_SSL_NON_SECURE_PORT_ENABLED:true}
+    non-secure-port: ${NODEPORT:7979}
+    secure-port-enabled: ${HYSTRIX_SSL_ENABLED:false}
+    secure-port:  ${NODEPORT:7979}
+server:
+  port: ${HYSTRIX_PORT:7979}
+  ssl:
+    enabled: ${HYSTRIX_SSL_ENABLED:false}
+    client-auth: ${HYSTRIX_SSL_CLIENT_AUTH:want}
+    key-store: ${HYSTRIX_SSL_KEYSTORE:/opt/CSE/etc/ssl/server.p12}
+    key-store-password: ${HYSTRIX_SSL_KEY_STORE_PWD:123456}
+    key-store-type: ${HYSTRIX_SSL_KEY_STORE_TYPE:PKCS12}
+spring:
+  application:
+    name: ${HYSTRIX_NAME:hystrix-dashboard}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: "/"

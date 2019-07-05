@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.huawei</groupId>
+    <artifactId>demo-bus</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>config-server</module>
+        <module>config-client-demo1</module>
+        <module>config-client-demo2</module>
+        <module>bookstore</module>
+        <module>reader</module>
+        <module>eureka-client-provider</module>
+        <module>eureka-client-consumer-ribbon</module>
+        <module>eureka-client-consumer-ribbon-1</module>
+        <module>eureka-server</module>
+        <module>hystrix-single</module>
+        <module>hystrix-turbine</module>
+        <module>hystrix-turbine-stream</module>
+        <module>eureka-client-conusmer-feign</module>
+        <module>eureka-client-conusmer-feign-1</module>
+        <module>rkd-rxjava</module>
+    </modules>
+</project>
